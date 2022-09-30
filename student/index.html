@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Potta+One&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/64aa6998d2.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Lobster+Two:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        
+        <title>勤益E315</title>
+
+        
+        <link rel="stylesheet" href="css/style.css">
+        <!--
+        <style>
+
+
+            #ball {
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                background: blue;
+                position: relative;
+                left: 0px;
+                top: 0px;
+            }
+           
+          
+            @keyframes ballmovement {
+                0% {
+                 
+                    background-color: yellow;
+                }
+    
+                33% {
+                    left: 400px;
+                    top: 2400px;
+                }
+    
+                66% {
+                    left: 800px;
+                    top: 0px;                
+                
+                }
+    
+                100% {
+                    left: 1200px;
+                    top: 2400px;
+                    background-color: purple;
+                }
+            }
+    
+            .animate {
+                animation-name: ballmovement;
+                animation-duration: 10s;
+                /* animation-delay: 3s; */
+                 animation-timing-function: linear;
+                animation-iteration-count: infinite;/*無限播放*/
+                animation-direction: alternate; /*來回播放*/
+            }
+                    div {
+            margin: 100px auto;
+            width: 100px;
+            height: auto;
+            border-left: 2px solid aqua;
+            border-left-width: 1px;
+            position: relative;
+        }
+
+        .ani {
+            position: absolute;
+            border-bottom: 1px solid aqua;
+            left: 0;
+            bottom: 0;
+            width: 0px;
+            transition: all 3s;
+            -webkit-transition: all 3s;
+        }
+
+        div:hover .ani{
+            width: 100px;
+        }
+        </style>
+        -->
+
+        <style type="text/css">
+            body{
+                cursor: default ;
+            }
+        </style>
+
+
+    </head>
+    <body>
+
+
+        <video class="video-back" autoplay loop muted>
+            <!--<source src="blue motion background.mp4">-->
+            <source src="nc.mp4">
+        </video>
+        
+        <!--
+        <video class="video-back" autoplay loop muted>
+            <source src="blue motion background.mp4"
+        </video>
+
+
+        
+            <div class="animate"  id="ball"></div>
+        -->
+
+        <header class="bg-light bg-gradient">
+            <div class='container '>
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    
+                    <a class="navbar-pand" href="#">
+                        <img src='cat.jpeg'>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.youtube.com/watch?v=PKCmzQ2iDfU&ab_channel=ivZ">Theme song</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Common problem</a>
+                            </li>    
+                            <li class='nav-item'>
+                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</a>
+                            </li>    
+                        </ul>  
+                    </div> 
+                </nav>
+                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> -->
+                <!-- Launch demo modal -->
+                <!-- </button> -->
+            
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">看屁看</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                            <div class="modal-body">
+                                敬請期待
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </header>
+
+        
+        <section id='intro'>
+            <div class='jumbotron'>
+                <div class='container'>
+                    <div class='row'>               
+                        <div class="col-md-12">
+                        <h1>E315 Laboratory</h1>
+                        <p class='lead'>Let's study the knowledge related to the IOT together.</p>
+                        <a class='btn' href="https://line.me/ti/p/boy4-DcEvi">Join the lab</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id='second'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-8 offset-md-2 text-center'>
+                        <h3>Join our laboratory to learn</h3>
+                        <div class='row'>
+                            <div class='col-md-4'>
+                                <img src='song.jpg'>
+                                <h5>特聘教授 宋文財</h5>
+                                <div class="row">
+                                    <h5>Distinguished Professor</h5>
+                                </div>
+                            </div>
+                            <div class='col-md-8 text-start'>
+                                <h4>If you want to learn about the Internet of Things, or want to experience the feeling of taking inventory to death, welcome to join us.</h4>
+                                <p>職稱(Job title): 特聘教授(Distinguished Professor)</p>
+                                <p>最高學歷(Highest education):國立中央大學電機研究所博士(NCU PhD in Electrical Engineering)</p>
+                                <p>專業領域(Areas of expertise): 物聯網相關應用、無線感測網路、生理訊號感測與處理、資料融合、系統理論與控制、類神經網路應用、系統晶片
+                                 (IoT-related applications, wireless sensor networks, physiological signal sensing and processing, data fusion, system theory and control, neural network applications, system chips)
+                                </p>
+                                <p>組別(Group): 機電控制組(Electromechanical control)</p>
+                                <p>行政職務(Administrative duties): 研發處處長(Director of R&D)</p>
+                                <p>分機(Extension Number): 7225</p>
+                                <p>電子信箱(Email): songchen@ncut.edu.tw</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id='third'>
+            <div class='container'>
+                <div class='col-md-8 offset-md-2 text-center'>
+                    <img src="cat2.jpeg" style="width: 75px; height: 75px; float: right; margin-right: 100px;">
+                    <h3>laboratory member now</h3>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='outer'>
+                                <div class='upper'>
+                                    <img src='WENG.JPG'>
+                                    <div class='text'>
+                                        
+                                        <h5>Second year of master's degree</h5>
+                                        <a href="https://www.facebook.com/"><i class="fas fa-user-graduate"></i><h4>翁靖豪<h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class='outer'>
+                                <div class='upper'>
+                                    <img src='SOSO.jpg'>
+                                    <div class='text'>
+                                        
+                                        <h5>Second year of master's degree</h5>
+                                        <a href="https://www.facebook.com/zai.n.li.5"><i class="fas fa-user-graduate"></i><h4>蔡碩宸<h4></a>
+                                    </div>        
+                                </div>        
+                            </div>    
+                        </div>
+                        <div class='col'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='HAO.jpg'>
+                                    <div class="text">
+                                        
+                                        <h5>Graduated senior,now working at KYEC.</h5>
+                                        <a href="https://www.facebook.com/tsunhao.sun"><i class="fas fa-user-graduate"></i><h4>孫尊皓<h4></a>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='HIM.PNG'>
+                                    <div class="text">
+                                        
+                                        <h5>Graduated senior</h5>
+                                        <a href="https://www.facebook.com/humblemanhimchan"><i class="fas fa-user-graduate"></i><h4>陳文謙<h4></a>
+                                        
+                                    </div>
+                                </div>        
+                            </div>    
+                        </div>
+                        <div class='col order-last'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='DHEA.jpg'>
+                                    <div class="text">
+                                        
+                                        <h5>Graduated senior</h5>
+                                        <a href="https://www.facebook.com/dheafnf"><i class="fas fa-user-graduate" style="color: fuchsia;"></i><h4>方法恬<h4></a>
+                                    </div>        
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class='col'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='show.jpg'>
+                                    <div class="text ">
+                                        
+                                        <h5>Graduated senior</h5>
+                                        <a href="https://www.facebook.com/profile.php?id=100003150630708"><i class="fas fa-user-graduate"></i><h4 style="margin-right:-18px;">蕭仲硯</h4></a>
+                                    </div>        
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class='col order-last'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='Via.jpg'>
+                                    <div class="text">
+                                        
+                                        <h5>Second year of master's degree</h5>
+                                        <a href="https://www.facebook.com/vilia.devi"><i class="fas fa-user-graduate" style="color: fuchsia;"></i><h4>方玉涵<h4></a>
+                                    </div>        
+                                </div>    
+                            </div>    
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='outer'>
+                                <div class='upper'>
+                                    <img src='LIN.jpg'>
+                                    <div class='text'>
+                                        
+                                        <h5>Master of first grade</h5>
+                                        <a href="https://www.facebook.com/profile.php?id=100000788431138"><i class="fas fa-user-graduate"></i><h4>林晉儇<h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class='outer'>
+                                <div class='upper'>
+                                    <img src='WEI.jpg'>
+                                    <div class='text'>
+                                        
+                                       <h5>Master of first grade</h5>
+                                        <a href="https://www.facebook.com/profile.php?id=100000214326530"><i class="fas fa-user-graduate"></i><h4>康皓崴<h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col order-last'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='CHEN.jpg'.jpg'>
+                                    <div class="text">
+                                        
+                                        <h5>Second year of master's degree</h5>
+                                        <a href="https://www.facebook.com/profile.php?id=100014301454273"><i class="fas fa-user-graduate" style="color: fuchsia;"></i><h4>陳冠蓉<h4></a>
+                                    </div>        
+                                </div>    
+                            </div>    
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col'>
+                            <div class='outer'>
+                                <div class='upper'>
+                                    <img src='Chen J.H.jpg'>
+                                    <div class='text'>
+                                        
+                                        <h5>Master of first grade</h5>
+                                        <a href="https://www.facebook.com/profile.php?id=100001536897010"><i class="fas fa-user-graduate"></i><h4>陳京泓<h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class='outer'>
+                                <div class='upper'>
+                                    <img src='Lai Xinyu.jpg'>
+                                    <div class='text'>
+                                        
+                                       <h5>Master of first grade</h5>
+                                        <a href="https://www.instagram.com/lxinyu22/"><i class="fas fa-user-graduate" style="color: fuchsia; "></i><h4>賴欣瑜<h4></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col order-last'>
+                            <div class="outer">
+                                <div class="upper">
+                                    <img src='jennyaryani.jpg'>
+                                    <div class="text">
+                                        
+                                        <h5>Second year of master's degree</h5>
+                                        <a href="https://www.instagram.com/jennyaryani/"><i class="fas fa-user-graduate" style="color: fuchsia;"></i><h4>郭美香（jennyaryani）<h4></a>
+                                    </div>        
+                                </div>    
+                            </div>    
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <section id="papers">
+            <div container>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h3></h3>
+                        <h3>Previous Papers</h3>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="url">
+            <div container>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-left">
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=1&h1=0">1. 基於模糊控制的飲用水水質監測設計</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=2&h1=0">2. 基於物聯網之智慧居家環境</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=3&h1=0">3. 基於物聯網架構下建置室內環境監控系統</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=4&h1=0">4. 基於物聯網架構下建置影像居家意外救援系統</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=5&h1=0">5. 應用Fieldbus整合機械手臂進行智慧量測與監控之研究</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=6&h1=0">6. 運用Arduino與Raspberry Pi結合ThingSpeak實現校園環境天氣監測系統</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=7&h1=0">7. 基於物聯網架構下建置庭院環境監控系統</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=8&h1=0">8. 基於LoRa無線網路之人手孔監控系統應用</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=9&h1=0">9. 基於物聯網建構寵物居家監控系統</a></div>                    
+                        <div class="btn"><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=IlmG_f/record?r1=10&h1=0">10. 基於NFC之非DICOM醫療物聯網在門診之應用</a></div>                    
+                        <div class="btn"><a href=""></a></div>                    
+                        <div class="btn"><a href=""></a></div>                    
+                        <div class="btn"><a href=""></a></div>                    
+                        <div class="btn"><a href=""></a></div>                    
+                        <div class="btn"><a href=""></a></div>                    
+                        <div class="btn"><a href=""></a></div>                    
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="fourth">
+            <div container>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h3>Join E315Lab's Email List</h3>                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 offset-md-3 text-left">
+                        <p>有最新消息便會通知你</p>
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="你的電郵(維修中)" style="font-family: 'Hachi Maru Pop', cursive;">
+                            <div class="btn"><a href="#">提交</a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-left">
+                        <img src="cat3.jpeg">
+                        <h4>加入我們研究室，一起拓展新視野</h4>
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <h4>連結</h4>
+                        <ul>
+                            <li><a href='#'>主頁</a></li>
+                            <li><a href='#'>最新消息</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href='#'>常見問題</a></li>
+                            <li><a href='#'>聯絡我們</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <h4>聯絡我們</h4>
+                        <p>41170台中市太平區中山路二段57號<br>
+                                Phone:(04)23924505轉分機7239<br>
+                                E-Mail:z87020915@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

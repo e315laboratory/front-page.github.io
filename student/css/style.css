@@ -1,0 +1,141 @@
+h1,h2{
+    font-family: 'Potta One', cursive;
+
+}
+h5{
+    font-family: 'Potta One', cursive;
+    font-size: 1.5rem;
+}
+#intro p,a{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+#intro .jumbotron{
+    background-image: url("https://images.pexels.com/photos/1287518/pexels-photo-1287518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 1730px 366.18px;
+    height: 40vh;
+}
+#intro h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 2.2;
+}
+#intro a{
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#intro .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+header img{
+      width:120px ;
+}
+header li{
+    margin: 0px 10px;
+}
+#second{
+    margin: 50px;
+}
+#second h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    margin-bottom: 25px;
+    color: red;
+}
+#second img{
+    border-radius: 25%;
+    width: 100px;
+    margin: 15px;
+}
+
+#second h4{
+    font-size: 23px ;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 25px;
+    color: #0400ff;
+}
+#second p{
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #000;
+}
+#third .col img{
+    width: 200px;
+    height: 200px;
+}
+#third h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    margin-bottom: 25px;
+    color: red;
+}
+#third img{
+    max-width: 100%;
+}
+#third .upper{
+    position: relative;
+}
+
+#third .row{
+    margin-top: 40px;
+}
+.text i{
+    position: absolute;
+    bottom: 11px;
+    left: 9px
+}
+#fourth h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    color: red;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#fourth a{
+    background: red;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 20px;
+}
+#fourth p{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+footer{
+    border-top: solid #DDDDDD;
+    margin-top: 100px;
+}
+footer img{
+    width: 150px;
+}
+footer h4{
+    margin-bottom: 26px;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 20px;
+}
+footer ul{
+    padding: 0px;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+footer li{
+    margin-bottom: 10px;
+    
+}
+footer p{
+    font-family: 'Hachi Maru Pop', cursive;
+
+}
+.video-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -3;
+}
